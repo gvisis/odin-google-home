@@ -1,0 +1,47 @@
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+    div.head {
+    width: 220px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 15px;
+    padding-top: 5px;
+    }
+    .head a {
+        text-decoration: none;
+        font-size: 13px;
+        color: dimgray;
+    }
+    .head a:hover {
+        text-decoration: underline;
+    }
+    .top-img:first-of-type {
+        width: 18px;
+        opacity: 80%;
+    }
+    .top-img:hover {
+        opacity: 100%;
+        cursor: pointer;
+    }
+    .top-img:last-of-type {
+    width: 42px;
+    }
+footer {
+
+}
+    div.foot-bottom {
+
+    }
+        .fbl-l{
+
+    }
+        .foot-bot-links {
+            background: red;
+        }
+
+    .fbl-r
