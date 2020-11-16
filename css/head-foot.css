@@ -42,7 +42,6 @@ footer {
     background: #F2F2F2;
     position: absolute;
     bottom: 0;
-    z-index: -1;
     border-top: 1px solid #DADCE0;
     color: #6F6F6F;
 }
