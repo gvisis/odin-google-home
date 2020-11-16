@@ -42,7 +42,7 @@ main {
                 padding-right: 5px;
                 flex-wrap: nowrap;
                 position: relative;
-                opacity: 50%;
+                opacity: 60%;
             }
                 .search-img:hover{
                     opacity: 100%;
@@ -51,9 +51,8 @@ main {
                 /* ! Pakeist searchbaro sizinima kart su zoomu. @media max ir min width?  */
             .search-bar {
             outline: none;
-            border: none;
-            width: 30vw;
-            height: 34px;
+            width: 80%;
+            height: 38px;
             font-size: 16px;
             border-radius: 17px;
             padding-left: 8px;
