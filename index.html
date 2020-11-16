@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- Styling -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/head-foot.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Odin Google</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="head">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <img src="./img/menu.png" alt="Menu">
-            <img src="./img/smalllogo.png" alt="Small logo">    
+            <img class="top-img" src="./img/menu.png" alt="Menu">
+            <img class="top-img" src="./img/smalllogo.png" alt="Small logo">    
         </div>
     </header>
-    <main class="main">
+    <main>
         <div class="middle">
             <img src="./img/googlelogo.png" alt="Google Logo" class="logo">
             <div class="search">
-                <img class="search-bar-img" src="./img/microphone.png" alt="Search">
+                <img class="search-img" src="./img/search-solid.svg" alt="Search">
                 <label for="search-bar"></label>
                 <input id="search-bar" type="search" class="search-bar">
-                <img class="search-bar-img" src="./img/microphone.png" alt="speech">
+                <img class="search-img" src="./img/microphone.png" alt="speech">
             </div>
             <div class="buttons-cont">
                 <a class="buttons" href="#">Google Search</a>
@@ -36,20 +42,19 @@
     </main>
     <footer>
         <div class="foot-bottom">
-            <!-- FIX PROBABLY CLASS FOR LINK -->
-            <a class="foot-bot-links" href="">Lithuania</a>
+            <span>Lithuania</span>
         </div>
         <div class="foot-bottom">
             <div class="fbl-l">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">About</a>
-                <a href="#">How Search works</a>
+                <a class='foot-bottom-links' href="#">Advertising</a>
+                <a class='foot-bottom-links' href="#">Business</a>
+                <a class='foot-bottom-links' href="#">About</a>
+                <a class='foot-bottom-links' href="#">How Search works</a>
             </div>
             <div class="fbl-r">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
+                <a class='foot-bottom-links' href="#">Privacy</a>
+                <a class='foot-bottom-links' href="#">Terms</a>
+                <a class='foot-bottom-links' href="#">Settings</a>
             </div>
         </div>
     </footer>
