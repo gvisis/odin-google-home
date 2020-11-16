@@ -1,0 +1,18 @@
+.buttons-cont {
+    padding-top: 30px;
+    margin-bottom: 10px;
+
+}
+    .buttons {
+    background-color: #F9FAFB;
+    border-radius: 2px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1;
+    color: darkslategray;
+    text-decoration: none;
+    }
+        .buttons:hover {
+            box-shadow: 0 0 2px 0px #b1b2b6;
+        }
