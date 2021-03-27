@@ -1,0 +1,16 @@
+.img {
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+    .img::before {
+        position: absolute;
+        content: "images";
+        bottom: 5px;
+        right: 25px;
+        font-size: 0.8rem;
+        color: #0053d8;
+    }
